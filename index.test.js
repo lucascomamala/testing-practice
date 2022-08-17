@@ -25,5 +25,15 @@ test('"parangaricutirimicuaro" expects Error', () => {
     }
 });
 
+// Task 2
+test('reverseString(“hello”) should return “olleh”', () => {
+    expect(tasks.reverseString('hello')).toBe('olleh');
+});
 
+test('reverseString(“Howdy”) should return “ydwoH”', () => {
+    expect(tasks.reverseString('Howdy')).toBe('ydwoH');
+});
 
+test('reverseString(“Greetings from Earth”) should return ”htraE morf sgniteerG”', () => {
+    expect(tasks.reverseString('Greetings from Earth')).toBe('htraE morf sgniteerG');
+});

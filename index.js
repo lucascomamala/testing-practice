@@ -5,4 +5,11 @@ function stringLength(str) {
     else return str.length;
 }
 
+// Task 2
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
 exports.stringLength = stringLength;
+exports.reverseString = reverseString;
+
