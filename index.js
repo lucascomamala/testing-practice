@@ -26,6 +26,12 @@ class Calculator {
     }
 }
 
+// Task 4
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 exports.stringLength = stringLength;
 exports.reverseString = reverseString;
 exports.Calculator = Calculator;
+exports.capitalize = capitalize;

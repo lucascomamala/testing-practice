@@ -57,3 +57,14 @@ describe('Calculator', () => {
         expect(tasks.Calculator.divide(64, 8)).toBe(8);
     });
 });
+
+describe('Capitalize', () => {
+    test('"lucas" expects "Lucas"', () => {
+        // expect(tasks.Calculator.add(13, 5)).toBe(18);
+        expect(tasks.capitalize('lucas')).toBe('Lucas');
+    });
+    test('"microverse" expects "Microverse"', () => {
+        // expect(tasks.Calculator.add(13, 5)).toBe(18);
+        expect(tasks.capitalize('microverse')).toBe('Microverse');
+    });
+});
